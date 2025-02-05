@@ -1,0 +1,45 @@
+.efine-con{
+    width: 100%;
+}
+
+.def-img{
+    height: 100%;
+    width: 100%;
+}
+.para-text{
+    font-size: 24px;
+}
+/* 
+@media (min-width:769px) and (max-width:1024px) {
+    .para-text{
+        font-size: 14px;
+    }
+} */
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .para-text{
+        font-size: 16px;
+    }
+}
+@media (min-width: 1000px) {
+    .para-text{
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 768px){
+    .para-text{
+        font-size: 16px !important;
+        min-width: 400px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 566px){
+.para-text{
+    font-size: 16px;
+}
+.defin-ge{
+    margin-left: -15px;
+}
+
+}
